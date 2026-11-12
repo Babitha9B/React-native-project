@@ -3,5 +3,4 @@ import com.example.expensetracker.model.TransactionType;
 import jakarta.validation.constraints.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
-#jdhfdjdjfnS
-public record TransactionRequest(@NotBlank @Size(max=100) String title, @NotNull @DecimalMin("0.01") BigDecimal amount, @NotNull TransactionType type, @NotBlank @Size(max=50) String category, @NotNull LocalDate transactionDate, @Size(max=500) String notes) {}S
+public record TransactionRequest(@NotBlank @Size(max=100) String title, @NotNull @DecimalMin("0.01") BigDecimal amount, @NotNull TransactionType type, @NotBlank @Size(max=50) String category, @NotNull LocalDate transactionDate, @Size(max=500) String notes) {}
