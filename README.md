@@ -1,6 +1,6 @@
 # Expense Tracker – React Native + Spring Boot + MySQL
 
-A beginner-friendly full-stack mobile app to record income and expenses, categorize transactions, edit/delete entries, filter history, and view monthly totals.
+A full-stack mobile app to record income and expenses, categorize transactions, edit/delete entries, filter history, and view monthly totals.
 
 ## Tech stack
 - Mobile: React Native, Expo, JavaScript
